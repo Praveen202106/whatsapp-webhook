@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 // Replace with your credentials
-
+//hi
 // In-memory context
 const userState = {};
 
@@ -191,7 +191,7 @@ async function sendMessage(to, message) {
 
 // Start server
 app.listen(8000, () => {
-  console.log("WhatsApp bot listening on port 5000");
+  console.log("WhatsApp bot listening on port 8000");
 });
 
 // const express = require('express')
